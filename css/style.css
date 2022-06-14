@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Nautilus Pompilius';
+    src: url(../fonts/nautiluspompilius.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1653778005824-4bc7dc887603?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 0 0 40px 40px;
+    opacity: 80%;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Nautilus Pompilius';
+    font-size: 9rem;
+}
+
+h1:hover {
+    color: darkolivegreen;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.text {
+    margin-left: 5px;
+}
+
+.publication {
+    margin-left: 5px;
+}
+
+.new {
+    font-family: 'Nautilus Pompilius';
+    height: 500px;
+    background-color: white;
+    opacity: 95%;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 40px;
+}
+
+.menu__link {
+    font-family: 'Nautilus Pompilius';
+    font-size: 60px;
+    color: black;
+    padding: 20px;
+}
+
+.menu__link:hover {
+    color: darkolivegreen;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 40px;
+    height: 100px;
+}
+
+.copiright {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.new:nth-child(even){
+    background-color:darkolivegreen;
+}
+.WordNEW::before{
+    content: "New";
+    color: brown;
+}
